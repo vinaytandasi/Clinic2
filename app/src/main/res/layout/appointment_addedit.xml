@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="338dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_appointment_start"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:autoText="false"
+            android:inputType="time|date" />
+
+        <CalendarView
+            android:id="@+id/startDateCalendar"
+            android:layout_width="220dp"
+            android:layout_height="199dp"
+            android:clickable="true" />
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_appointment_from_time"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:autoText="false"/>
+
+            <TimePicker
+                android:layout_width="289dp"
+                android:layout_height="100dp"
+                android:id="@+id/startTimePicker"
+                android:timePickerMode="spinner" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_appointment_to_time"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:autoText="false"/>
+
+        <TimePicker
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/endTimePicker"
+            android:timePickerMode="spinner" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount:"
+            android:minWidth="@dimen/label_width_std"
+            android:id="@+id/amountText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/amountEdit" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/label_width_std"
+                android:text="Pending Amount:"
+                android:id="@+id/pendingAmountText"
+                android:inputType="textMultiLine"
+                android:password="false" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/pendingAmountEdit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treatment details:"
+                android:minWidth="@dimen/label_width_std"
+                android:id="@+id/treatmentDetails" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text|textMultiLine"
+                android:ems="10"
+                android:id="@+id/treatmentDetailsEdit"
+                android:minLines="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/label_width_std"
+                android:text="Session notes:"
+                android:id="@+id/sessionNotes"></TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/sessionNotesEdit" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

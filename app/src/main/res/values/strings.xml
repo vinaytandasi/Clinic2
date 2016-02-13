@@ -1,0 +1,70 @@
+<resources>
+
+    <string name="title_section_home">Home</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="app_name">Activ Life Physiotherapy</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="some_text">Patient\'s list</string>
+    <string name="some_hint">Type here to filter&#8230;</string>
+    <string name="backup_data">Backup Data</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="add_appointment">Add Appointment</string>
+
+    <string name="referredBy_prompt">Select one</string>
+    <string name="label_pain">Pain: </string>
+    <string name="label_percentage">%</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+
+
+    <string-array name="referredBy_arrays">
+        <item>Practo</item>
+        <item>Dr. Bones</item>
+        <item>Dr. Godbole</item>
+        <item>Google Search</item>
+        <item>Walk-in</item>
+        <item>Notice Board - Sena Vihar</item>
+        <item>Notice Board - Jal Vayu Vihar</item>
+        <item>Other patients</item>
+    </string-array>
+
+    <string name="profession_prompt">Select one</string>
+
+    <string-array name="profession_arrays">
+        <item>Retired-defense</item>
+        <item>House Wife</item>
+        <item>Job-Software</item>
+        <item>Job-Office</item>
+        <item>Job-Fieldwork</item>
+        <item>Business-Office</item>
+        <item>Business-Fieldwork</item>
+        <item>Sports</item>
+        <item>Other</item>
+    </string-array>
+    <string name="copyLink"><u><b><i>Copy</i></b></u></string>
+    <string name="string_occupation_details">Occupation Details:</string>
+    <string name="string_profession">Profession :</string>
+    <string name="string_appointment_start">Appointment Date:</string>
+    <string name="string_appointment_from_time">From:</string>
+    <string name="string_appointment_to_time">To:</string>
+    <string name="data_save">Save</string>
+    <string name="add_patient_label">Add Patient</string>
+    <string name="add_appointment_label">Appointment</string>
+    <string name="physio_rx">Physio Rx:</string>
+    <string name="oral_examination">Oral Examination:</string>
+    <string name="habbits">Habbits:</string>
+    <string name="medical_history">Medical History:</string>
+    <string name="married_short">M</string>
+    <string name="female_short">F</string>
+    <string name="notmarried_short">N</string>
+    <string name="male_short">M</string>
+
+</resources>
